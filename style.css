@@ -33,7 +33,7 @@ body{
 }
 
 .capdown{
-  padding-top: 15em;
+  padding-top: 17em;
 }
 
 .navbar-nav li{
@@ -47,7 +47,7 @@ body{
 
 .navbar-dark .navbar-nav .nav-link.active,
 .navbar-dark .navbar-nav .nav-link:hover{
-  color: #ffbe33;
+  color: #ff8c00;
 }
 
 body{
@@ -55,7 +55,7 @@ body{
 }
 
 .arrow{
-  margin-top: 1em;
+  margin-top: .5em;
   animation: breathe 1.3s ease infinite alternate running;
   color: white;
 }
@@ -123,6 +123,15 @@ body{
   font-size: 1.2rem;
 }
 
+.orange{
+  color: #ff8c00;
+  background-color: black;
+}
+
+.textxx{
+  font-size: large;
+}
+
 
 /*--- Course Section --*/
 
@@ -174,12 +183,12 @@ h3.heading{
 .heading-underline{
   width: 3rem;
   height: .3rem;
-  background-color: #ffbe33;
+  background-color: #ff8c00;
   margin: 0 auto 2rem;
 }
 
 .feature svg.svg-inline--fa{
-  color: #ffbe33;
+  color: #ff8c00;
 }
 
 .feature h3{
@@ -225,7 +234,7 @@ h3.heading{
 }
 
 blockquote svg.svg-inline--fa{
-  color: #ffbe33;
+  color: #ff8c00;
   margin: 1rem;
 }
 
@@ -235,21 +244,25 @@ blockquote svg.svg-inline--fa{
 }
 
 .imagesx:hover{
-  box-shadow: .1rem .1rem .9rem #ffbe33;
+  box-shadow: .1rem .1rem .9rem #ff8c00;
 }
 
 
 
 .clients-hr{
-  border-top: .05rem solid #ffbe33;
+  border-top: .05rem solid #ff8c00;
 }
 
 /*--- Contact Section --*/
 footer{
-  background-color: #40474e;
+  background-color: black;
   color: white;
   padding: 2rem 0 2rem;
+  color: #ff8c00;
+}
 
+.andrew{
+  color: white;
 }
 
 footer h1{
@@ -264,6 +277,7 @@ footer a{
 footer svg.svg-inline--fa{
   font-size: 1.6rem;
   margin: 1.2rem .5rem 0 0;
+  color: #ff8c00;
 }
 
 
