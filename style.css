@@ -56,7 +56,7 @@ body{
 }
 
 .arrow{
-  margin-top: .2em;
+  margin-top: 4em;
   animation: breathe 1.3s ease infinite alternate running;
   color: white;
 }
