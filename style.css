@@ -33,7 +33,8 @@ body{
 }
 
 .capdown{
-  padding-top: 17em;
+  padding-top: 15em;
+  
 }
 
 .navbar-nav li{
@@ -55,7 +56,7 @@ body{
 }
 
 .arrow{
-  margin-top: .5em;
+  margin-top: .2em;
   animation: breathe 1.3s ease infinite alternate running;
   color: white;
 }
@@ -272,6 +273,7 @@ footer{
 footer h1{
   height: 3rem;
   margin: 1.5rem 0;
+  color: white;
 }
 
 footer a{
@@ -327,7 +329,21 @@ hr.socket{
   .bitch{
     margin-left: 1.3rem;
   }
+
+  .buti{
+    margin-left: 1.3rem;
+  }
 }
+
+@media (max-height: 769px){
+  .capdown{
+    padding-top: 1rem;
+  }
+  .arrow{
+    margin-top: 6rem;
+  }
+}
+
 
 /*============ BOOTSTRAP BREAK POINTS:
 
